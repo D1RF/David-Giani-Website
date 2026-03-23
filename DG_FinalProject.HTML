@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Integrated Circuit Design (CENG465) Final Project </title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>David Giani, B.S. EE Chapman University</h1>
+    <h1>Instructor: Peiyi Zhao, Ph.d, Associate Professor, www1.chapman.edu/~zhao</h1>
+<p>
+    <br>
+IC design in this project was performed using the following tools:
+Cadence Virtuoso for schematic and layout creation, Synopsys Hspice for simulation, Siemens Calibre for layout verification.
+    <br>
+    <br>
+The process involved designing a flip-flop circuit based on a Microelectronics Journal paper. <br><br>
+The design flow included the following:<br>
+Schematic capture in Virtuoso, followed by layout creation.<br>
+Design Rule Check (DRC) and Layout Versus Schematic (LVS) verification were conducted using Calibre to ensure layout correctness and connectivity matching the schematic.<br>
+Parasitic capacitances were extracted using Calibre's parasitic extraction (PEX) feature integrated within Virtuoso.<br>
+Post-layout simulations were carried out in Hspice to verify circuit functionality through waveform analysis.<br>
+Power consumption was measured at different processing corners, operating at 1 GHz frequency, 1 V supply voltage, and 10% switching activity, targeting a 45 nm technology node.<br>
+This project involved considerable debugging.<br>
+<br>
+Acknowledgement: Thanks to Dr. Michael Fahy for his strong support of the above CAD tools!</p>
+<br>
+<h2>
+    <a href="https://doi.org/10.1016/j.mejo.2024.106390">Paper:</a> Yugal Kishore Maheshwari, Manoj Sachdev, A power-efficient, single-phase, contention-free flip-flop with only three clock transistors, Microelectronics Journal, Volume 152, 2024
+</h2>
+<p style="font-size: 30px;">Below is the vertical schematic:</p>
+    <img src="Vertical Schematic.jpg" alt="Vertical Schematic" width="1200" height="800">
+<p style="font-size: 30px;">Below is my layout:</p>
+    <img src="3CTSPC Circuit Layout.jpg" alt="Layout">
+<p style="font-size: 30px;">Below is the waveform of my layout:</p>
+    <img src="Waveform1.jpg" alt="Waveform1">
+
+<!-- COMMENTED OUT
+<br>
+<br>
+
+<h2>
+    <a href="https://www.sciencedirect.com/science/article/pii/S1879239124000948">Paper 2: </a>
+</h2>
+<p>Here is the Vertical Schematic</p>
+    <img src="Pulse-FlipFlop Schematic.jpg" alt="Pulse Flip-Flop Vertical Schematic">
+<p>Here is the here is the Layout</p>
+    <img src="Pulse-FlipFlop Layout.jpg" alt="Pulse Flip-Flop Layout">
+<p>Here is the Waveform</p>
+    <img src="Waveform1.jpg" alt="Waveform1">
+-->
+  </body>
+</html>
